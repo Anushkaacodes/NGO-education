@@ -10,7 +10,7 @@ for(let i=0; i<navElemArr.length; i++){
 }
 
 
-const navbarLinks = document.querySelectorAll("[dta-nav-links]");
+const navbarLinks = document.querySelectorAll("[data-nav-link]");
 for(let i=0; i<navbarLinks.length; i++)
 {
     navbarLinks[i].addEventListener("click", function(){
